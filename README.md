@@ -2,9 +2,12 @@
 
 ARIA landmarks example repository.
 
-Read more about this on [MHX Blog - ARIA Landmarks Gotchas](http://mhx.be/blog/aria-landmarks-gotchas
+Read more about this on [MHX Blog - ARIA Landmarks: Explanation & Gotchas](http://mhx.be/blog/aria-landmarks).
 
-# On which platforms/devices/browsers is this tested?
+When viewing the examples in [index.html](index.html), ignore the contents (span with aria-label) of each tag where the role is applied to.
+This was added for debugging on different screen readers. 
+
+## On which platforms/devices/browsers is this tested?
 
 I tested this on the following devices:
 
