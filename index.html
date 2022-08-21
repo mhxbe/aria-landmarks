@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landmarks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header role="banner" class="landmark landmark__banner">
+    <span class="code" aria-label="header tag">&lt;header role="banner"&gt;</span>
+  </header>
+
+  <nav role="navigation" class="landmark landmark__navigation">
+    <span class="code" aria-label="nav tag">&lt;nav role="navigation"&gt;</span>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main role="main" class="landmark landmark__main">
+    <span class="code" aria-label="main tag">&lt;main role="main"&gt;</span>
+
+    <form id="animal-form" title="Animal form" class="landmark landmark__form">
+      <span class="code" aria-label="form tag">&lt;form&gt;</span>
+      <fieldset form="animal-form">
+        <legend>Select an animal</legend>
+        <div>
+          <input type="radio" id="cat" name="animal" value="cat" checked>
+          <label for="cat">Cat</label>
+        </div>
+        <div>
+          <input type="radio" id="dog" name="animal" value="dog">
+          <label for="dog">Dog</label>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+
+  <aside role="complementary" class="landmark landmark__complementary">
+    <span class="code" aria-label="aside tag">&lt;aside role="complementary"&gt;</span>
+
+    <form role="search" class="landmark landmark__search">
+      <span class="code" aria-label="form tag with role search">&lt;form role="search"&gt;</span>
+      <input type="search" name="global-search" id="search-input" placeholder="Search something...">
+    </form>
+  </aside>
+
+  <section role="region" aria-label="Important section" class="landmark landmark__region">
+    <span class="code" aria-label="section tag with role region">
+      &lt;section role="region" aria-labelledby="section-title"&gt;
+    </span>
+  </section>
+
+  <footer role="contentinfo" class="landmark landmark__contentinfo">
+    <span class="code" aria-label="footer tag">&lt;footer role="contentinfo"&gt;</span>
+  </footer>
+</body>
+
+</html>
